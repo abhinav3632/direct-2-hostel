@@ -31,7 +31,7 @@ export const Nav = () => {
 
     return (
         <div>
-            <div className={color ? 'w-full fixed top-0 left-0 bg-white' : 'w-full fixed top-0 left-0 bg-tranparent'}>
+            <div className={color ? 'w-full fixed top-0 left-0 bg-indigo-100' : 'w-full fixed top-0 left-0 bg-indigo-100'}>
                     <div className='md:flex items-center justify-between py-0.5 bg-transparent md:px-10 px-7'>
                         <div className='font-bold font-[Poppins] text-xl  text-slate-800 cursor-pointer flex items-center'>
                             <span className='mr-1'>
@@ -42,7 +42,7 @@ export const Nav = () => {
                         <div onClick={() => setOpen(!open)} className='text-xl absolute right-8 top-6 cursor-pointer md:hidden'>
                             <i class={open ? "fa-solid fa-xl fa-x" : "fa-solid fa-xl fa-bars"}></i>
                         </div>
-                        <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static md:z-auto z-[-1] px-6 right-0 w-half bg-transparent rounded-md  md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in-out ${open ? 'top-20' : 'top-[-500px]'}`}>
+                        <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static md:z-auto z-[-1] px-6 right-0 w-half bg-indigo-100 rounded-md  md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in-out ${open ? 'top-20' : 'top-[-500px]'}`}>
                             {
                                 Links.map((link) => (
                                     <li key={link.name} className='md:ml-8 text-2xl md:my-0 my-7'>
