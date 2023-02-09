@@ -7,10 +7,10 @@ export const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-indigo-100"
+      className="w-full bg-indigo-100 pt-10 pb-20 "
     >
-      <div className="pr-15 gap-x-4 max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full md:flex-row">
-        <div className="pr-20 flex flex-col justify-center ">
+      <div className="margin gap-x-20 max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full md:flex-row ">
+        <div className="flex flex-col justify-center ">
           <h2 className="text-4xl sm:text-7xl font-bold text-slate-900">
             Direct 2 Hostel
           </h2>

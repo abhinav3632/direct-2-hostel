@@ -25,7 +25,7 @@ export const Nav = () => {
         { name: "About", link: "/" },
         { name: "Locations", link: "/" },
         { name: "Pricing", link: "/" },
-        { name: "Contact", link: "/" }
+        { name: "Orders", link: "/" }
     ];
     let [open, setOpen] = useState(false);
 
