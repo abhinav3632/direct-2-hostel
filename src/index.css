@@ -20,4 +20,10 @@ code {
   .margin{
     margin-top: 11vh;
   }
+  .header-bg{
+    background-color: rgba(0,0,0,0.9);
+}
+.mt-11{
+    margin-bottom: 11vh;
+}
 /* } */

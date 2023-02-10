@@ -38,6 +38,7 @@ export const Home = () => {
         <div>
           <img src={HeroImage}
             className="rounded-2xl my-5 shadow-lg mx-auto w-2/3 md:w-full"
+            alt=""
           />
         </div>
       </div>
