@@ -1,10 +1,10 @@
 import React from 'react'
-import Orders from './components/Orders'
+import { Login } from './components/Login'
 
-export const Page2 = () => {
+export const Page3 = () => {
   return (
     <div className='h-screen'>
-    <Orders />
+    <Login />
     </div>
   )
 }
