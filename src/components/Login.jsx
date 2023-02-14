@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export const Login = () => {
     let [open, setOpen] = useState(false);
-
+    document.body.style.overflow ="hidden";
     const [type, setType] = useState('password');
     const handleToggle = () => {
         if (type === 'password') {
@@ -14,7 +14,6 @@ export const Login = () => {
             setType('password');
         }
     }
-
         return (
             <section className='bg-gray-50 min-h-screen flex items-center justify-center mt-8'>
                 <div className='bg-gray-100 flex shadow-xl rounded-2xl max-w-3xl py-6 px-5 items-center'>

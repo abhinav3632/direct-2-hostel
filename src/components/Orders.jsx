@@ -1,10 +1,9 @@
 import React,{useState} from 'react'
-
 import loginImg from '../asset/login 1.jpg'
 
 export default function Login() {
   let [open, setOpen] = useState(false);
-
+  document.body.style.overflow ="hidden";
   const [type, setType] = useState('password');
   const handleToggle = () => {
     if (type === 'password') {
@@ -15,7 +14,7 @@ export default function Login() {
     }
   }
   return (
-    <div className='grid grid-cols-1 sm:grid-cols-2  w-full margin'>
+    <div className='grid grid-cols-1 sm:grid-cols-2 w-full margin'>
       <div className='hidden sm:block'>
         <img className='w-full h-full object-cover' src={loginImg} alt="" />
       </div>
