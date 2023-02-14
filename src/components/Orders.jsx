@@ -3,7 +3,6 @@ import loginImg from '../asset/login 1.jpg'
 
 export default function Login() {
   let [open, setOpen] = useState(false);
-  document.body.style.overflow ="hidden";
   const [type, setType] = useState('password');
   const handleToggle = () => {
     if (type === 'password') {
