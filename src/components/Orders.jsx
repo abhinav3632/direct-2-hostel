@@ -13,14 +13,15 @@ export default function Login() {
     }
   }
   return (
-    <div className='grid grid-cols-1 sm:grid-cols-2 w-full margin'>
+    <div className='grid grid-cols-1 sm:grid-cols-2 w-full margin' style={{height: "90vh"}}>
       <div className='hidden sm:block'>
         <img className='w-full h-full object-cover' src={loginImg} alt="" />
       </div>
 
-      <div className='bg-gray-200 flex justify-center '>
+      <div className='bg-gray-200 flex justify-center ' >
         <form action="https://getform.io/f/29e50d61-bad0-47ae-ae44-e470107df7df" 
-        method="POST" className='max-w-20vw h-33vh bg-white w-full mx-20 rounded-lg my-8  py-3 px-6'>
+        method="POST" className='max-w-20vw h-33vh bg-white w-full mx-20 rounded-lg my-8  py-3 px-6'
+        style={{height:"90%"}}  >
           <h2 className='text-4xl text-gray-600 font-bold text-center'>ORDER</h2>
           <div className='flex flex-col text-gray-700 py-2'>
             <label>Name</label>
